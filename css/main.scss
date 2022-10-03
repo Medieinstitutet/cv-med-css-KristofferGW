@@ -278,12 +278,14 @@ body {
   padding-right: 25px;
 }
 
+h1 {
+  font-size: 1.5em;
+}
+
 .nav-lista {
-  margin: 0;
-  padding: 1rem 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  height: 18vh;
+  width: 20vh;
+  padding: 0.5em;
 }
 
 .nav-lank {
