@@ -543,6 +543,7 @@ body {
   color: white;
   padding-left: 25px;
   padding-right: 25px;
+  font-family: "Rubik", sans-serif;
 }
 body a:link, body a:visited {
   color: yellow;
@@ -557,11 +558,15 @@ h1 {
 
 .nav-lista {
   height: 18vh;
-  width: 20vh;
+  width: 22vh;
   padding: 0.5em;
 }
 
 .nav-lank {
   list-style: none;
   margin-right: 2rem;
+}
+
+footer {
+  padding-bottom: 10px;
 }/*# sourceMappingURL=main.css.map */
