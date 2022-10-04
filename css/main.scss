@@ -286,17 +286,13 @@ h1 {
 header {
   position: relative;
   border: blue solid;
-}
-
-aside {
-  border: solid green;
-    img {
+  img {
     position: absolute;
     top: 5;
     right: 0;
     border: solid pink;
-    width: 100px;
-    height: 200px;
+    height: 160px;
+    width: auto;
 }
 }
 
@@ -317,12 +313,11 @@ aside {
   position: absolute;
 }
 
-img {
-  max-width: 15%;
-  max-height: 15%;
-}
-
 
 footer {
   padding-bottom: 10px;
+  img {
+    max-width: 15%;
+    max-height: 15%;
+  }
 }
