@@ -285,12 +285,10 @@ h1 {
 
 header {
   position: relative;
-  border: blue solid;
   img {
     position: absolute;
     top: 5;
     right: 0;
-    border: solid pink;
     height: 160px;
     width: auto;
 }
@@ -302,15 +300,12 @@ header {
   width: 22vh;
   padding: 0.5em;
   margin-bottom: 1em;
-  border: solid yellow;
   position: relative;
 }
 
 .nav-lank {
   list-style: none;
   margin-right: 2rem;
-  border: solid red;
-  position: absolute;
 }
 
 
@@ -319,5 +314,16 @@ footer {
   img {
     max-width: 15%;
     max-height: 15%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-lista {
+    width: auto;
+    height: auto;
+    display: flex;
+    a {
+      font-size: larger;
+    }
   }
 }
