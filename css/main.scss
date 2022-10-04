@@ -283,16 +283,45 @@ h1 {
   font-size: 1.5em;
 }
 
+header {
+  position: relative;
+  border: blue solid;
+}
+
+aside {
+  border: solid green;
+    img {
+    position: absolute;
+    top: 5;
+    right: 0;
+    border: solid pink;
+    width: 100px;
+    height: 200px;
+}
+}
+
+
 .nav-lista {
   height: 18vh;
   width: 22vh;
   padding: 0.5em;
+  margin-bottom: 1em;
+  border: solid yellow;
+  position: relative;
 }
 
 .nav-lank {
   list-style: none;
   margin-right: 2rem;
+  border: solid red;
+  position: absolute;
 }
+
+img {
+  max-width: 15%;
+  max-height: 15%;
+}
+
 
 footer {
   padding-bottom: 10px;
