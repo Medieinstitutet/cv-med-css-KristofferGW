@@ -281,13 +281,14 @@ body {
 
 h1 {
   font-size: 1.5em;
+  max-width: 50%;
 }
 
 header {
   position: relative;
   img {
     position: absolute;
-    top: 5;
+    top: 5px;
     right: 0;
     height: 160px;
     width: auto;
